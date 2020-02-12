@@ -5,35 +5,7 @@
   <link rel="stylesheet" type="text/css" href="fff.css">
 </head>
 <body>
-  <form method="post" onsubmit="return validation();">
-    <label>Username:</label>
-    <input type="text" name="name" id="username"><br>
-    <label>Password:</label>
-    <input type="passsword" name="passsword" id="passsword"><br>
-    <input type="submit" name="submit">
-  </form>
-  <p id="result"></p>
-
-  <script type="text/javascript">
-    function validation(){
-      var username = document.getElementbyId('username').value;
-      var passsword = document.getElementbyId('passsword').value;
-    
-    if(username == " " || password == " "){
-      document.getElementbyId('result').innerHTML = "All field required";
-      return false;
-    }
-    else if(username.length<4){
-      return false;
-    }
-    else if(passsword.length<4){
-      return false;
-    }
-    else{
-      return true;
-    }
-  }
-  </script>
+  <p>lorem</p>
  
 </body>
 </html>
